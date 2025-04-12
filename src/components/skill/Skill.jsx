@@ -1,10 +1,12 @@
+import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
+
 const Skill = () => {
   return (
     <section className="py-20 dark:bg-gray-950 bg-amber-50">
       <div className="container px-4 lg:px-8">
         <div className="flex flex-col items-center">
           <h2 className="Heading pb-3 border-b-2 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
-            Skill ShowCase
+            Strength
           </h2>
           <p className="w-auto lg:w-[900px] pt-14 font-primary font-medium leading-7 lg:leading-8 text-xs lg:text-lg text-center lg:text-balance dark:text-white text-secondary">
             I have extensive knowledge of front-end technologies that I am
@@ -15,39 +17,126 @@ const Skill = () => {
           </p>
         </div>
 
-        <div className=" dark:bg-fifth mt-10 mx-2 px-5 py-10 rounded-lg">
-          <ul className="px-2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:justify-between lg:flex gap-2 lg:gap-8 ">
-            <li className="w-16 h-16">
-              <img src="/html.png" alt="html" />
-            </li>
-            <li className="w-16 h-16">
-              <img src="/css.png" alt="html" />
-            </li>
-            <li className="w-16 h-16">
-              <img src="/bootstrap.png" alt="html" />
-            </li>
-            <li className="w-16 h-16">
-              <img src="/psd.png" alt="html" />
-            </li>
-            <li className="w-16 h-16">
-              <img src="/figma.png" alt="html" />
-            </li>
-            <li className="w-16 h-16">
-              <img src="/redux.png" alt="html" />
-            </li>
-            <li className="w-16 h-16">
-              <img src="/javascript.png" alt="html" />
-            </li>
-            <li className="w-16 h-16">
-              <img src="/tailwind.png" alt="html" />
-            </li>
-            <li className="w-16 h-16 ">
-              <img src="/JQuery.png" alt="html" />
-            </li>
-            <li className="w-16 h-16">
-              <img src="/react.png" alt="html" />
-            </li>
-          </ul>
+        <div className=" dark:bg-fifth mt-10 mx-2 px-5 py-10 items-center rounded-lg overflow-hidden space-x-10 flex">
+          <div className="flex space-x-10 animate-logo-scroll items-center">
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaHtml5 className="text-2xl" />
+              <p className="text-xl font-semibold">HTML</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">CSS</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">JS</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">React Js</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Next Js</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Figma</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Firebase</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Tailwind </p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Bootstrap</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">PSD</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Redux</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">JQuery</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Github</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Github</p>
+            </div>
+          </div>
+          <div
+            className="flex space-x-10 animate-logo-scroll items-center"
+            aria-hidden="true"
+          >
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaHtml5 className="text-2xl" />
+              <p className="text-xl font-semibold">HTML</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">CSS</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">JS</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">React Js</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Next Js</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Figma</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Firebase</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Tailwind </p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Bootstrap</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">PSD</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Redux</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">JQuery</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Github</p>
+            </div>
+            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
+              <FaCss3Alt className="text-2xl" />
+              <p className="text-xl font-semibold">Github</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

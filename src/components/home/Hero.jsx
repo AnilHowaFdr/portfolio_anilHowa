@@ -51,13 +51,6 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        {/* <div className="w-1/2">
-            <img
-              className="border-2 w-[450px] h-[450px] rounded-full overflow-hidden"
-              src="/image2.jpg"
-              alt="profile"
-            />
-          </div> */}
       </div>
     </section>
   );

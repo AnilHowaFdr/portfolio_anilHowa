@@ -5,6 +5,8 @@
 
 @theme {
   --animate-wiggle: wiggle 1s ease-in-out infinite;
+  --animate-logo-scroll: logo-scroll 30s linear infinite;
+  --animate-bottomToTop: bottomToTop 1.2s linear infinite alternate-reverse;
 
   --color-primary: #229799;
   --color-secondary: #424242;
@@ -21,6 +23,24 @@
     }
     50% {
       transform: rotate(1deg);
+    }
+  }
+
+  @keyframes logo-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes bottomToTop {
+    0% {
+      transform: translateY(-0.5rem);
+    }
+    100% {
+      transform: translateY(1rem);
     }
   }
 }

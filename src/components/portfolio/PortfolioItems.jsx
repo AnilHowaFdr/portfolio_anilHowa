@@ -6,7 +6,7 @@ const PortfolioItems = () => {
     <section className="py-20 dark:bg-gray-950">
       <div className="container px-4 lg:px-8 cursor-pointer">
         <h2 className="Heading pb-3 border-b-2 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
-          Projects ShowCase
+          Projects
         </h2>
         <p className="w-auto lg:w-[800px] pt-10 text-center m-auto font-primary font-medium leading-8 text-lg text-balance dark:text-white text-secondary">
           Some of my Projects are showcased below for your review. You can rely
