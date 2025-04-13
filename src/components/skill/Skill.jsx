@@ -1,4 +1,8 @@
-import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
+import { BsFiletypePsd } from "react-icons/bs";
+import { DiJqueryLogo } from "react-icons/di";
+import { FaCss3Alt, FaGithub, FaHtml5 } from "react-icons/fa";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { TbBrandBootstrap, TbBrandRedux } from "react-icons/tb";
 
 const Skill = () => {
   return (
@@ -36,43 +40,39 @@ const Skill = () => {
               <p className="text-xl font-semibold">React Js</p>
             </div>
             <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
-              <FaCss3Alt className="text-2xl" />
+              <RiNextjsFill className="text-2xl" />
               <p className="text-xl font-semibold">Next Js</p>
             </div>
             <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
-              <FaCss3Alt className="text-2xl" />
+              <PiFigmaLogoBold className="text-2xl" />
               <p className="text-xl font-semibold">Figma</p>
             </div>
             <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
-              <FaCss3Alt className="text-2xl" />
+              <BiLogoFirebase className="text-2xl" />
               <p className="text-xl font-semibold">Firebase</p>
             </div>
             <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
-              <FaCss3Alt className="text-2xl" />
+              <RiTailwindCssFill className="text-2xl" />
               <p className="text-xl font-semibold">Tailwind </p>
             </div>
             <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
-              <FaCss3Alt className="text-2xl" />
+              <TbBrandBootstrap className="text-2xl" />
               <p className="text-xl font-semibold">Bootstrap</p>
             </div>
             <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
-              <FaCss3Alt className="text-2xl" />
+              <BsFiletypePsd className="text-2xl" />
               <p className="text-xl font-semibold">PSD</p>
             </div>
             <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
-              <FaCss3Alt className="text-2xl" />
+              <TbBrandRedux className="text-2xl" />
               <p className="text-xl font-semibold">Redux</p>
             </div>
             <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
-              <FaCss3Alt className="text-2xl" />
+              <DiJqueryLogo className="text-2xl" />
               <p className="text-xl font-semibold">JQuery</p>
             </div>
             <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
-              <FaCss3Alt className="text-2xl" />
-              <p className="text-xl font-semibold">Github</p>
-            </div>
-            <div className="px-4 py-2 flex items-center gap-2 bg-amber-200">
-              <FaCss3Alt className="text-2xl" />
+              <FaGithub className="text-2xl" />
               <p className="text-xl font-semibold">Github</p>
             </div>
           </div>
