@@ -27,9 +27,9 @@ const TopBottom = () => {
       {show && (
         <div
           onClick={btn}
-          className="cursor-pointer items-center w-8 h-8 animate-bottomToTop rounded-full fixed bottom-20 right-20 z-999 justify-center flex bg-primary text-white shadow-xl "
+          className="cursor-pointer items-center w-12 h-12 animate-bottomToTop rounded-full fixed bottom-20 right-20 z-999 justify-center flex bg-primary text-white shadow-xl "
         >
-          <BiSolidUpArrowSquare className="text-2xl " />
+          <BiSolidUpArrowSquare className="text-3xl " />
         </div>
       )}
     </div>

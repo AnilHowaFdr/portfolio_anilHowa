@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
@@ -14,7 +15,8 @@
   --color-fourth: #48cfcb;
   --color-fifth: #f5f5f5;
 
-  --font-primary: Inter, sans-serif;
+  /* --font-primary: Inter, sans-serif; */
+  --font-primary: Roboto, sans-serif;
 
   @keyframes wiggle {
     0%,
@@ -67,8 +69,11 @@
   }
 }
 
+body {
+  @apply font-primary;
+}
 .Heading {
-  @apply font-primary text-2xl md:text-3xl lg:text-5xl text-primary font-bold;
+  @apply font-primary text-2xl md:text-3xl lg:text-4xl uppercase tracking-widest text-primary font-bold;
 }
 .gradient_text {
   -webkit-background-clip: text;

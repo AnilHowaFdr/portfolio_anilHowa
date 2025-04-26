@@ -1,74 +1,57 @@
-import axios from "axios";
-import { useForm } from "react-hook-form";
-import toast from "react-hot-toast";
+import React from "react";
+import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = async (data) => {
-    const userInfo = {
-      name: data.name,
-      email: data.email,
-      message: data.message,
-    };
-    try {
-      await axios.post("https://getform.io/f/bllynxjb", userInfo);
-      toast.success("Your message has been sent!");
-    } catch (error) {
-      toast.error("Something went wrong");
-    }
-  };
   return (
-    <footer className="py-32 px-2 dark:bg-gray-950 ">
-      <div className="container px-4 lg:px-8">
-        <form
-          onSubmit={handleSubmit(onSubmit)}
-          // action="https://getform.io/f/bllynxjb"
-          // method="POST"
-          className="flex flex-col items-center w-full m-auto justify-center gap-3 "
-        >
-          <h2 className="uppercase text-xl md:text-2xl lg:text-3xl pb-4 font-semibold font-primary dark:text-white text-secondary">
-            Get in touch
-          </h2>
-          <input
-            {...register("name", { required: true })}
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Name"
-            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 py-3 dark:text-gray-200"
-          />
-          {errors.name && <span>Name is required</span>}
-
-          <input
-            {...register("email", { required: true })}
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Email"
-            email="Email"
-            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 py-3 dark:text-gray-200"
-          />
-          {errors.email && <span>Email is required</span>}
-          <textarea
-            {...register("message", { required: true })}
-            placeholder="Your Message ..."
-            name="message"
-            message="Message"
-            className="w-full text-secondary font-medium font-primary text-base lg:text-lg border rounded-lg sm:w-1/2 px-2 h-40 py-3 dark:text-gray-200"
-          />
-          {errors.message && <span>Message is required</span>}
-          <button
-            type="submit"
-            className="mt-5 py-3 px-6 font-primary text-xl text-white cursor-pointer bg-primary"
-          >
-            Submit
-          </button>
-        </form>
+    <footer className="py-14 border-t-4 border-t-primary dark:bg-gray-950 ">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
+        <ul className="flex items-center justify-center gap-3 text-white">
+          <li>
+            <Link
+              to="/about"
+              className="px-2 duration-300 text-base font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-2 lg:hover:text-primary"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/service"
+              className="px-2 duration-300 text-base font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-2 lg:hover:text-primary"
+            >
+              Service
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/portfolio"
+              className="px-2 duration-300 text-base font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-2 lg:hover:text-primary"
+            >
+              Portfolio
+            </Link>
+          </li>
+        </ul>
+        <ul className="py-10 flex items-center justify-center dark:text-white text-2xl lg:text-4xl gap-6 text-secondary">
+          <li>
+            <Link to="https://www.linkedin.com/in/anil-howa-profile1/">
+              <FaLinkedin />
+            </Link>
+          </li>
+          <li>
+            <Link to="https://github.com/AnilHowaFdr">
+              <FaGithub />
+            </Link>
+          </li>
+          <li>
+            <Link to="https://www.facebook.com/anil.hawa.7/">
+              <FaFacebookSquare />
+            </Link>
+          </li>
+        </ul>
+        <p className="text-center font-semibold text-base dark:text-white text-secondary">
+          Copyright© ANIL HOWA, 2024 - All right reserved
+        </p>
       </div>
     </footer>
   );

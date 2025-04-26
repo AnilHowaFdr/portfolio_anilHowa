@@ -21,7 +21,7 @@ const TestimonialItems = () => {
         <h2 className="Heading pb-3 border-b-4 dark:text-white border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
           Testimonial
         </h2>
-        <p className="pt-5 text-lg w-3/4 m-auto pb-20 text-center font-medium dark:text-white text-secondary font-primary">
+        <p className="pt-14 text-lg w-3/4 m-auto pb-20 text-center font-medium dark:text-white text-secondary font-primary">
           View public client reviews, where each client shares their perspective
           on working with us. I always prioritize strong communication and
           effective collaboration throughout each project.

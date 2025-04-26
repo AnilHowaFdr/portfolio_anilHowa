@@ -1,6 +1,8 @@
+import { BiLogoFirebase } from "react-icons/bi";
 import { BsFiletypePsd } from "react-icons/bs";
 import { DiJqueryLogo } from "react-icons/di";
 import { FaCss3Alt, FaGithub, FaHtml5 } from "react-icons/fa";
+import { PiFigmaLogoBold } from "react-icons/pi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandBootstrap, TbBrandRedux } from "react-icons/tb";
 
@@ -9,7 +11,7 @@ const Skill = () => {
     <section className="py-20 dark:bg-gray-950 bg-amber-50">
       <div className="container px-4 lg:px-8">
         <div className="flex flex-col items-center">
-          <h2 className="Heading pb-3 border-b-2 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
+          <h2 className="font-primary uppercase Heading pb-3 border-b-2 border-secondary dark:border-white border-dashed w-fit m-auto text-center ">
             Strength
           </h2>
           <p className="w-auto lg:w-[900px] pt-14 font-primary font-medium leading-7 lg:leading-8 text-xs lg:text-lg text-center lg:text-balance dark:text-white text-secondary">

@@ -7,7 +7,7 @@ const Service = () => {
     <div className="pt-20">
       <ServiceItems />
       <WorkingProcess />
-      <Price />
+      {/* <Price /> */}
     </div>
   );
 };

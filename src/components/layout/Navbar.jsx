@@ -17,14 +17,14 @@ const Navbar = () => {
             </h1>
           </div>
           <ul className=" hidden md:flex space-x-2 lg:space-x-4 text-secondary dark:text-fifth">
-            <li>
+            {/* <li>
               <Link
                 to="/"
                 className="px-3 py-2 duration-300 text-base font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
                 Home
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 to="/about"
