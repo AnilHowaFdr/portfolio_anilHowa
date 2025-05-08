@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { FaHandPointRight } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
+import { Link } from "react-router-dom";
 const Hero = () => {
   const settings = {
     infinite: true,
@@ -43,9 +44,12 @@ const Hero = () => {
             and knowledge.
           </p>
           <div className="flex justify-center lg:justify-start mt-10 gap-5 ">
-            <button className="px-5 uppercase py-3 bg-primary text-fifth rounded-lg text-xl font-semibold">
+            <Link
+              to="https://www.canva.com/design/DAGlnWKwt_I/amJs7pG2NeTFDUcifCaOOw/view?utm_content=DAGlnWKwt_I&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2e0b7cd910"
+              className="px-5 uppercase py-3 bg-primary text-fifth rounded-lg text-xl font-semibold"
+            >
               Resume
-            </button>
+            </Link>
             <button className="uppercase px-5 py-3 bg-primary text-fifth rounded-lg text-xl font-semibold">
               Hire Me
             </button>

@@ -88,15 +88,6 @@ const Navbar = () => {
             <li>
               <Link
                 onClick={toggleMenu}
-                to="/"
-                className="block px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={toggleMenu}
                 to="/about"
                 className="block px-3 py-2 duration-300 text-lg font-bold cursor-pointer hover:border-b-fifth lg:hover:border-b-primary hover:border-b-4 lg:hover:text-primary"
               >
