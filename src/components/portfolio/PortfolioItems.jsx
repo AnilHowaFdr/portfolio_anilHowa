@@ -20,15 +20,15 @@ const PortfolioItems = () => {
             src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
           />
           <PortfolioTools
-            title="Agency Website"
-            src="/portfolio2.png"
-            src1="https://e-commerce-website-farny-with-react.vercel.app/"
+            title="Flower Store"
+            src="/flowerP.png"
+            src1="flower-store-m8j0yr5s2-anil-howas-projects.vercel.app"
             src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
           />
           <PortfolioTools
             title="Chatting Application"
-            src="/portfolio4.png"
-            src1="https://e-commerce-website-farny-with-react.vercel.app/"
+            src="/chattingApp.png"
+            src1="chatting-app-2-0.vercel.app"
             src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
           />
         </div>
