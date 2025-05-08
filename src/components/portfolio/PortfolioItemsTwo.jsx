@@ -25,7 +25,7 @@ const PortfolioItemsTwo = () => {
             src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
           />
           <PortfolioTools
-            title="E-commerce Website"
+            title="Chatting Application"
             src="/chattingApp.png"
             src1="chatting-app-2-0.vercel.app"
             src2="https://github.com/AnilHowaFdr/E-Commerce-Website-Farny-with-React-.git"
